@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.ytimg.com/vi/GmRRDFU2U2A/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Cerceve{
+    display: flex;
+    margin: 2rem;
+}
+.saatMain-container{
+    display: flex;
+    border: 4px solid;
+    border-radius: 10px;
+    border-color: rgb(38, 34, 34);
+}
+h1{
+    font-weight: normal ;
+    font-size: 3rem;
+    margin-top: -15rem;
+    color: rgb(177, 123, 73);
+}
+h2{
+    color: rgb(177, 123, 73);
+}
+.big-text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.saatGenel{
+    text-align: center;
+}
+.saatGenel span{
+    font-size: 1.4rem;
+}
+.saatMain-container p{
+color: rgb(177, 123, 73);
+}
+.Gun-Container{
+    line-height: 1.5;
+    margin: 0 1rem;
+    font-weight: normal ;
+    font-size: 3rem;
+    margin-top: -15rem;
+    color: rgb(138, 86, 37);
+}
+button{
+    height: 4rem;
+    width: 12rem;
+    border: 5px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 123, 0);
+    border-radius: 10px;
+    margin-bottom: .25rem;
+    margin-top: .25rem;
+    font-size: x-large;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+button:hover{
+    transition: 0.5s;
+    background-color:rgb(136, 132, 132);
+    
+}
